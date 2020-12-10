@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'sprite';
+  src:  url('fonts/sprite.eot?7hhq3m');
+  src:  url('fonts/sprite.eot?7hhq3m#iefix') format('embedded-opentype'),
+    url('fonts/sprite.ttf?7hhq3m') format('truetype'),
+    url('fonts/sprite.woff?7hhq3m') format('woff'),
+    url('fonts/sprite.svg?7hhq3m#sprite') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sprite' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mail:before {
+  content: "\e900";
+  color: #2196f3;
+}
+.tel:before {
+  content: "\e901";
+  color: #757575;
+}
+.antenna .path1:before {
+  content: "\e902";
+  color: rgb(33, 33, 33);
+}
+.antenna .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(33, 150, 243);
+}
+.clock .path1:before {
+  content: "\e904";
+  color: rgb(33, 33, 33);
+}
+.clock .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(33, 150, 243);
+}
+.diagram .path1:before {
+  content: "\e906";
+  color: rgb(33, 150, 243);
+}
+.diagram .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(33, 33, 33);
+}
+.astronaut .path1:before {
+  content: "\e908";
+  color: rgb(33, 150, 243);
+}
+.astronaut .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(33, 33, 33);
+}
+.astronaut .path3:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(33, 33, 33);
+}
+.client1:before {
+  content: "\e90b";
+  color: #afb1b8;
+}
+.client2:before {
+  content: "\e90c";
+  color: #afb1b8;
+}
+.client3:before {
+  content: "\e90d";
+  color: #afb1b8;
+}
+.client4:before {
+  content: "\e90e";
+  color: #2196f3;
+}
+.client5:before {
+  content: "\e90f";
+  color: #afb1b8;
+}
+.client6:before {
+  content: "\e910";
+  color: #afb1b8;
+}
+.insta:before {
+  content: "\e911";
+  color: #afb1b8;
+}
+.tw:before {
+  content: "\e912";
+  color: #afb1b8;
+}
+.fb:before {
+  content: "\e913";
+  color: #afb1b8;
+}
+.in:before {
+  content: "\e914";
+  color: #afb1b8;
+}

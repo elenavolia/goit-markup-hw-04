@@ -80,6 +80,7 @@ header .container {
 
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 header .logo {
@@ -327,6 +328,8 @@ h4 {
   color: var(--main-text-color);
   margin-bottom: 50px;
   padding-top: 94px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /*section team*/
@@ -339,7 +342,8 @@ h4 {
 
 .team ul {
   display: flex;
-  justify-content: centre;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 
 .team-item {
@@ -375,23 +379,91 @@ h4 {
 
 .sm {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.team .sm {
+.sm a:hover,
+.sm a:focus,
+.sm a:active {
+  background-color: var(--icons-contrast-color);
+}
+
+.sm-item:last-child {
+  margin-right: 0;
+}
+
+.sm-item a {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: var(--icons-primary-color);
+}
+
+.sm-item a:hover,
+.sm-item a:focus,
+.sm-item a:active {
+  color: var(--main-background-color);
+}
+
+.sm-icon {
+  height: 20px;
+  width: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  fill: currentColor;
+}
+
+footer .sm-item a {
+  height: 44px;
+  width: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+footer .sm-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+footer .sm {
+  display: flex;
+}
+
+/*.sm {
+  display: flex;
+}
+
+.sm-item:hover,
+.sm-item:focus,
+.sm-item:active {
+  background-color: var(--icons-contrast-color);
+}
+
+.sm .team .sm {
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 24px;
 }
 
-.sm-icon {
-  width: 20px;
-  height: 20px;
+.sm-item {
+  display: flex;
+  width: 44px;
+  height: 244px0px;
   fill: var(--icons-primary-color);
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
-footer .sm-icon {
+.sm-icon:last-child {
+  margin-right: 0;
+}
+
+footer .sm-item {
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--section-background-color);
   width: 44px;
@@ -400,15 +472,21 @@ footer .sm-icon {
   padding: 12px;
 }
 
-.sm-icon:hover,
-.sm-icon:focus,
-.sm-icon:active {
+.sm-item:hover,
+.sm-item:focus,
+.sm-item:active {
   background-color: var(--icons-contrast-color);
   fill: var(--section-background-color);
   width: 44px;
   height: 44px;
   border-radius: 50%;
   padding: 12px;
+}
+.sm-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .sm a {
@@ -419,6 +497,7 @@ footer .sm-icon {
   width: 44px;
   height: 44px;
 }
+*/
 
 /*clients-section*/
 
@@ -529,7 +608,6 @@ h6 {
 
 .portfolio {
   font-family: Roboto, sans-serif;
-  background-color: var(--main-background-color);
 }
 
 .buttons-list {
@@ -643,8 +721,8 @@ h6 {
   padding-left: 24px;
 }
 
-.projects h2 {
-  color: var(--main-background-color);
+h2 {
+  visibility: hidden;
 }
 
 .projects li {
