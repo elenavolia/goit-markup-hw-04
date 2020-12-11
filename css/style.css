@@ -503,6 +503,7 @@ footer .sm-item {
 .clients {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .clients-item a {
@@ -541,14 +542,23 @@ footer .sm-item {
   background-color: var(--section-background-color);
 }
 
+.clients-item:hover,
+.clients-item:focus,
+.clients-item:active {
+  fill: var(--icons-contrast-color);
+  background-color: var(--icons-contrast-color);
+}
+
 /*footer*/
 
 footer {
+  align-items: baseline;
   background-color: var(--footer-background-color);
 
   padding-top: 60px;
 }
 .page-footer {
+  align-items: baseline;
   margin-left: 70px;
 }
 
@@ -570,6 +580,7 @@ footer address {
   display: flex;
 }
 footer address ul {
+  align-items: baseline;
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -702,6 +713,7 @@ h6 {
 .projects-item:active {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  border: 1px solid #eeeeee;
 }
 
 .projects-item:nth-child(3n) {
