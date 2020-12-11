@@ -236,6 +236,7 @@ h1 {
   font-family: Roboto;
   letter-spacing: 0.03em;
   box-sizing: content-box;
+  padding-top: 94px;
 }
 
 .advantages .container {
@@ -502,7 +503,7 @@ footer .sm-item {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding-bottom: 94 px;
+  padding-bottom: 94px;
 }
 
 .clients-item a {
@@ -646,8 +647,9 @@ h6 {
 
 /*projects*/
 
-.container .project {
+.project {
   padding-top: 50px;
+  padding-bottom: 94px;
 }
 .portfolio {
   padding-left: 15px;
