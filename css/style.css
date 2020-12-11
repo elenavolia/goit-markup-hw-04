@@ -534,9 +534,9 @@ footer .sm-item {
   margin-right: 0;
 }
 
-.clients-item a:hover,
-.clients-item a:focus,
-.clients-item a:active {
+.clients-link:hover,
+.clients-link:focus,
+.clients-link:active {
   fill: var(--icons-contrast-color);
   border-color: var(--icons-contrast-color);
   background-color: var(--section-background-color);
