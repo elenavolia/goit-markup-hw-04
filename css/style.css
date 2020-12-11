@@ -520,12 +520,6 @@ footer .sm-item {
   fill: var(--icons-primary-color);
 }
 
-.clients-icon:hover,
-.clients-icon:focus,
-.clients-icon:active {
-  fill: var(--icons-contrast-color);
-}
-
 .clients-item {
   margin-right: 30px;
 }
@@ -535,18 +529,9 @@ footer .sm-item {
 }
 
 .clients-link:hover,
-.clients-link:focus,
-.clients-link:active {
+.clients-link:focus {
   fill: var(--icons-contrast-color);
   border-color: var(--icons-contrast-color);
-  background-color: var(--section-background-color);
-}
-
-.clients-item:hover,
-.clients-item:focus,
-.clients-item:active {
-  fill: var(--icons-contrast-color);
-  background-color: var(--icons-contrast-color);
 }
 
 /*footer*/
