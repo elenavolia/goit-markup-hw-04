@@ -62,8 +62,6 @@ font-family: 'Roboto', sans-serif;*/
 
 .container {
   width: 1200px;
-  padding-top: 94px;
-  padding-bottom: 94px;
   padding-right: 15px;
   padding-left: 15px;
   margin: 0px auto 0px auto;
@@ -504,6 +502,7 @@ footer .sm-item {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  padding-bottom: 94 px;
 }
 
 .clients-item a {
@@ -606,6 +605,7 @@ h6 {
   display: flex;
   margin-top: 94px;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .buttons-list li {
