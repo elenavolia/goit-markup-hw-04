@@ -516,12 +516,9 @@ footer .sm-item {
   border-radius: 4px;
 }
 
-.clients-icon {
-  fill: var(--icons-primary-color);
-}
-
 .clients-item {
   margin-right: 30px;
+  fill: var(--icons-primary-color);
 }
 
 .clients-item:last-child {
