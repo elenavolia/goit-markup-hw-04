@@ -690,9 +690,16 @@ h6 {
   overflow: hidden;
   list-style-type: none;
 }
+.projects-content {
+  background-color: var(--section-background-color);
+  border: 1px solid #eeeeee, 100%;
+  overflow: hidden;
+}
 
-.projects-item:hover,
-.projects-item:focus {
+.projects-content:hover,
+.projects-content:focus {
+  display: block;
+  background-color: var(--section-background-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   border: 1px solid #eeeeee;
