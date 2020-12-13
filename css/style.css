@@ -245,11 +245,7 @@ h1 {
 
 .advantages ul {
   display: flex;
-  justify-content: space-between;
-}
-
-.advantages li {
-  justify-content: start;
+  justify-content: center;
 }
 
 .advantages li:not(:last-child) {
@@ -534,11 +530,13 @@ footer .sm-item {
 /*footer*/
 
 footer {
-  align-items: baseline;
   background-color: var(--footer-background-color);
-
+}
+.footer-items {
+  align-items: baseline;
   padding-top: 60px;
 }
+
 .page-footer {
   align-items: baseline;
   margin-left: 70px;
@@ -690,11 +688,11 @@ h6 {
   background-color: var(--section-background-color);
   border: 1px solid #eeeeee, 100%;
   overflow: hidden;
+  list-style-type: none;
 }
 
 .projects-item:hover,
-.projects-item:focus,
-.projects-item:active {
+.projects-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   border: 1px solid #eeeeee;
@@ -718,10 +716,6 @@ h6 {
 
 h2 {
   visibility: hidden;
-}
-
-.projects li {
-  list-style-type: none;
 }
 
 .projects h3 {
