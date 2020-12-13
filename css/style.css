@@ -694,7 +694,6 @@ h6 {
   display: block;
   background-color: var(--section-background-color);
   border: 1px solid #eeeeee, 100%;
-  overflow: hidden;
 }
 
 .projects-content:hover,
